@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 105vh;
+    margin: 0;
+    text-align: center;
+    background-color: rgba(211, 165, 123, 0.648);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#variados {
+    margin-right: 450px;
+}
+
+.opbebida {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+#fazerPedido {
+    background-color: rgb(88, 55, 21);
+    border-radius: 3px;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    width: 100px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.bebida-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bebida-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.bebida-item input {
+    margin-bottom: 5px;
+}
+
+#acompanhamentos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-right: 400px;
+}
+
+#torra {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-right: 481px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#acompanhamentos {
+    margin-bottom: 20px;
+}
+
+label input {
+    margin-right: 5px;
+}
+
+h1 {
+    margin-top: 1px;
+    margin-bottom: 5px;
+}

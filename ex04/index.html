@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Autocuidado</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Cafeteria Autocuidado</h1>
+    <form>
+        <div id="bebida">
+            <h2 id="variados">Escolha sua Bebida:</h2>
+            <div class="opbebida">
+                <div class="bebida-item">
+                    <img src="imagens/cafePuro.avif" alt="Café Puro">
+                    <input type="checkbox" name="cfP" id="cfp">Café Puro
+                </div>
+                <div class="bebida-item">
+                    <img src="imagens/cafeL.jpg" alt="Café com Leite">
+                    <input type="checkbox" name="cfl" id="cfl">Café com Leite
+                </div>
+                <div class="bebida-item">
+                    <img src="imagens/chocolate.png" alt="Chocolate">
+                    <input type="checkbox" name="Chocolate" id="Chocolate">Chocolate
+                </div>
+            </div>
+        </div>
+
+        <div id="torra">
+            <h2>Torra do Café</h2>
+            <label><input type="radio" name="torra" id="leve" value="leve">Leve</label>
+            <label><input type="radio" name="torra" id="media" value="media">Média</label>
+            <label><input type="radio" name="torra" id="forte" value="forte">Forte</label>
+        </div>
+
+        <div id="acompanhamentos">
+            <h2>Acompanhamentos</h2>
+            <label><input type="checkbox" name="chantilly" id="chantilly">Chantilly</label>
+            <label><input type="checkbox" name="raspas" id="raspas">Raspas de chocolate</label>
+            <label><input type="checkbox" name="ovomaltine" id="ovomaltine">Ovomaltine</label>
+        </div>
+        
+        <div class="btn">
+            <input type="button" value="Fazer Pedido" id="fazerPedido">
+        </div>
+    </form>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

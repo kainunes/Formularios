@@ -1,0 +1,95 @@
+form {
+    width: 400px;
+    padding: 2px 20px 20px 15px;
+}
+
+.form-group {
+    margin: 15px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #333333;
+}
+
+input[type="text"]:focus, 
+textarea:focus {
+    border-color: #00a2ff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 1);
+}
+
+#enviar {
+    background-color: #EC971F;
+    border-radius: 4px;
+    color: white;
+    border-color: #EC971F;
+    width: 70px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#limpar {
+    background-color: #F0AD4E;
+    border-radius: 4px;
+    color: white;
+    border-color: #F0AD4E;
+    width: 70px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.textarea {
+    margin: 15px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #333333;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#nome {
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    border-color: #CCCCCC;
+}
+
+#email {
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    box-shadow: none;
+    border-color: #CCCCCC;
+}
+
+#comentarios {
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid black;
+    color: #333333;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
